@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  margin: 0px 50px;
+}
+
+.header h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  color: white;
+}
+
+.header p {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  color: white;
+}
+
+.header input {
+  display: flex;
+  width: 95%;
+  font-size: 25px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.header .btn-primary {
+  width: 8%;
+  margin-bottom: 15px;
+  padding: 5px;
+  align-self: flex-end;
+  margin-right: 50px;
+}
+
+.workd {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  font-size: 25px;
+  color: grey;
+  padding: 50px 0px;
+  border-bottom: 1px solid grey;
+  margin: 0% 35%;
+}
+
+.btn {
+  margin: 0px 15px;
+  margin-top: 25px;
+}
+
+.task {
+  text-align: center;
+}
